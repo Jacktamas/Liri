@@ -1,0 +1,27 @@
+{
+  "name": "Jackliri",
+  "version": "1.0.0",
+  "description": "an app interact with three APIs",
+  "main": "liri.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "json-stringify-pretty-compact": "^1.0.4",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacktamas/Liri.git"
+  },
+  "author": "jacktamas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacktamas/Liri/issues"
+  },
+  "homepage": "https://github.com/Jacktamas/Liri#readme"
+}
