@@ -4,7 +4,6 @@ var twitter = require('twitter');
 var keys = require('./keys.js');
 var fs = require('fs');
 var request = require('request');
-var stringify = require("json-stringify-pretty-compact");
 
 //reading the text file and convert it to an array
 var randomText = fs.readFileSync('./random.txt', 'utf8').split(',');
